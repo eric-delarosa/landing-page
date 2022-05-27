@@ -44,11 +44,13 @@ ul li a{
    align-items: center;
    gap: 64px;
    padding: 100px;
+   
 }
 
 .info {
    font-size: 18px;
    color: #E5E7EB; 
+   max-width: 400px;
 }
 
 .info h1{
@@ -70,6 +72,7 @@ ul li a{
     padding: 8px 32px;
     border-radius: 10px;
     border: 0;
+    margin-top: 40px;
 }
 
 .container {
@@ -86,7 +89,8 @@ ul li a{
 
 .card_list {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 100px;
     align-items: center;
     color: #1f2937;
     font-size: 16px;
@@ -157,6 +161,11 @@ ul li a{
     color: #E5E7EB;
     font-weight: bold;
     font-size: 16px;
+}
+
+.sign_up button:hover{
+    background-color: #E5E7EB;
+    color: #3882f6;
 }
 
 footer {
